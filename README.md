@@ -1,5 +1,5 @@
 # NodeJs Automatic Database Backup
-## Node Js Script to backup databases. Made to backup a fivem server database. Can work in another use case,
+## Node Js Script to backup databases. Made to backup a fivem server database. Can work in other use cases.
 
 
 <b>Step 1: Prepare Your Environment</b>
