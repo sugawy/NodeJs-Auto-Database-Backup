@@ -37,4 +37,6 @@ Add the public key (~/.ssh/id_rsa.pub) to your GitHub account under Settings > S
 HTTPS with PAT:
 If using HTTPS, create a Personal Access Token (PAT) in GitHub with the repo scope.
 
-This should work fine on Linux as well.
+
+
+## This should work fine on Linux as well.
