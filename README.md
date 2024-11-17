@@ -1,5 +1,5 @@
 # NodeJs Auto Database Backup
- Node Js Script to backup databases. Made to backup a fivem server database. Can work in another use case,
+## Node Js Script to backup databases. Made to backup a fivem server database. Can work in another use case,
 
 
 Step 1: Prepare Your Environment
@@ -36,3 +36,5 @@ Add the public key (~/.ssh/id_rsa.pub) to your GitHub account under Settings > S
 
 HTTPS with PAT:
 If using HTTPS, create a Personal Access Token (PAT) in GitHub with the repo scope.
+
+This should work fine on Linux as well.
