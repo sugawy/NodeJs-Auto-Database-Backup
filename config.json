@@ -1,0 +1,19 @@
+{
+    "db": {
+      "host": "localhost",
+      "user": "your_username",
+      "password": "your_password",
+      "database": "your_database"
+    },
+    "backup": {
+      "intervalHours": 1,
+      "outputDir": "./backups",
+      "retentionDays": 5
+    },
+    "github": {
+      "repo": "git@github.com:your_username/your_repo.git",
+      "branch": "main",
+      "commitMessage": "Auto backup"
+    }
+  }
+  
