@@ -69,7 +69,7 @@ function cleanOldBackups() {
 function uploadToGitHub() {
   const commands = [
     `git -C ${backupDir} init`, // Initialize Git repository if not already
-    `git -C ${backupDir} remote add origin ${config.github.repo} || true`, // Add remote repository
+    `git -C ${backupDir} remote add origin ${repoUrl}`, // Add remote repository
     `git -C ${backupDir} add .`, // Stage changes
     `git -C ${backupDir} commit -m "${config.github.commitMessage}"`, // Commit changes
     `git -C ${backupDir} branch -M ${config.github.branch}`, // Set branch name
