@@ -1,10 +1,10 @@
-# NodeJs Auto Database Backup
- Node Js Script to backup databases. Made to backup a fivem server database. Can work in another use case,
+# NodeJs Automatic Database Backup
+## Node Js Script to backup databases. Made to backup a fivem server database. Can work in other use cases.
 
 
-Step 1: Prepare Your Environment
+<b>Step 1: Prepare Your Environment</b>
 
-1. Install Required Tools:
+Install Required Tools:
 Node.js:
 Download and install from https://nodejs.org/.
 During installation, ensure you check the box to add Node.js to your PATH.
@@ -13,7 +13,7 @@ MariaDB/MySQL Client Tools:
 Verify that mysqldump.exe is installed (typically with MariaDB).
 If not, reinstall MariaDB or download the client tools.
 
-Add the directory containing mysqldump.exe (e.g., C:\Program Files\MariaDB 10.5\bin) to your system's PATH environment variable:
+Add the directory containing mysqldump.exe (e.g., C:\Program Files\MariaDB 10.11\bin) to your system's PATH environment variable:
 
 Open Control Panel > System > Advanced system settings > Environment Variables.
 Under System variables, find and edit Path.
@@ -22,7 +22,7 @@ Git for Windows:
 Download from https://git-scm.com/.
 During installation, ensure you check the option to add Git to your PATH.
 
-Step 2: Set Up GitHub Repository
+<b>Step 2: Set Up GitHub Repository</b>
 
 Create a GitHub repository for storing backups.
 Set up SSH or HTTPS authentication:
@@ -36,3 +36,7 @@ Add the public key (~/.ssh/id_rsa.pub) to your GitHub account under Settings > S
 
 HTTPS with PAT:
 If using HTTPS, create a Personal Access Token (PAT) in GitHub with the repo scope.
+
+
+
+## This should work fine on Linux as well.
